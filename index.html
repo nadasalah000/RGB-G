@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB</title>
+    <!-- & icon -->
+    <link rel="icon" href="icon.jpg">
+    <!-- & font -->
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Alegreya:wght@700&family=Amatic+SC:wght@700&family=Inter&family=Nanum+Gothic+Coding&family=Open+Sans&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <!-- & animation -->
+    <link rel="stylesheet" href="css/animation.css">
+    <!-- & fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- & bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- & main -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- & media -->
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+      <div class="caption vh-100">
+        <header class="py-5 d-flex flex-column align-items-center gap-3">
+          <h1 class="text-uppercase">RGB Game<i class="fa-solid fa-volleyball fa-spin-pulse fa-lg"></i></h1>
+          <h2 id="rgbSyntax">rgb(255, 255, 255)</h2>
+          <div class="button-group">
+            <button id="easyBtn" class="btn btn-outline-danger text-black">
+              Easy <i class="fa-solid fa-brush fa-bounce"></i>
+            </button>
+            <button id="hardBtn" class="btn btn-outline-warning text-black">
+              Hard <i class="fa-solid fa-paint-roller fa-bounce"></i>
+            </button>
+          </div>
+        </header>
+  
+        <section class="bg-black py-4">
+          <button id="getColorsBtn" class="btn btn-outline-success d-block mx-auto fw-bold">
+            GET COLORS <i class="fa-solid fa-palette fa-shake fa-lg"></i>
+          </button>
+          <div  class="container" >
+            <div class="row py-5" id="colorsContainer">
+
+            </div>
+          </div>
+        </section>
+      </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
